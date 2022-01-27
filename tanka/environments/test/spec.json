@@ -1,0 +1,14 @@
+{
+  "apiVersion": "tanka.dev/v1alpha1",
+  "kind": "Environment",
+  "metadata": {
+    "name": "environments/test",
+    "namespace": "environments/test"
+  },
+  "spec": {
+    "apiServer": "https://192.168.64.10:8443",
+    "namespace": "monitoring",
+    "resourceDefaults": {},
+    "expectVersions": {}
+  }
+}
